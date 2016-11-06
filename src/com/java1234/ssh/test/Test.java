@@ -17,6 +17,7 @@ public class Test {
 		DataSource dataSource = ioc.getBean(DataSource.class);
 		Connection connection = dataSource.getConnection();
 		System.out.println(connection);
+		System.out.println("111111111111111111111111111----------测试GitHub")
 		
 	}
 
