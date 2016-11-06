@@ -21,7 +21,7 @@ public class DepartmentDao {
 
 	public List<Department> getAll(){
 		String hql="FROM Department dept";
-		//让Query对象调用setCacheable(true)表示将第一次查询的结果保存到缓存中
+		//璁㏎uery瀵硅薄璋冪敤setCacheable(true)琛ㄧず灏嗙涓�娆℃煡璇㈢殑缁撴灉淇濆瓨鍒扮紦瀛樹腑
 		return this.getSession().createQuery(hql).setCacheable(true).list();
 	}
 	
