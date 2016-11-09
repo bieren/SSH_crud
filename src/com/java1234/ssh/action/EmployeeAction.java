@@ -1,6 +1,5 @@
 package com.java1234.ssh.action;
 
-import java.util.Date;
 import java.util.Map;
 
 import org.apache.struts2.interceptor.RequestAware;
@@ -8,11 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 
-import com.java1234.ssh.entity.Department;
 import com.java1234.ssh.entity.Employee;
 import com.java1234.ssh.service.DepartmentService;
 import com.java1234.ssh.service.EmployeeService;
-import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
 import com.opensymphony.xwork2.ModelDriven;
 import com.opensymphony.xwork2.Preparable;
