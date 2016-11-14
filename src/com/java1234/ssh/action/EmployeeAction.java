@@ -80,6 +80,8 @@ public class EmployeeAction extends ActionSupport implements RequestAware,ModelD
 	public String save() {
 		System.out.println("-------------------------------------updata------------------------------\n"
 				+ employee);
+		System.out.println("here is bieren-------------------------------------updata------------------------------\n"
+				+ employee);
 
 		return employeeService.Input(employee);
 	}
