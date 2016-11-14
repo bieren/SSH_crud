@@ -82,6 +82,8 @@ public class EmployeeAction extends ActionSupport implements RequestAware,ModelD
 				+ employee);
 		System.out.println("here is bieren -------------------------------------updata------------------------------\n"
 				+ employee);
+		System.out.println("here is 316938378 -------------------------------------updata------------------------------\n"
+				+ employee);
 
 		return employeeService.Input(employee);
 	}
